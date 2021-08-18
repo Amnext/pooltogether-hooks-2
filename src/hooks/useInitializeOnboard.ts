@@ -134,6 +134,7 @@ const initOnboard = (subscriptions, walletConfig) => {
       walletName: 'walletConnect',
       ...walletConnectOptions
     },
+    { walletName: 'tokenpocket', preferred: true, rpcUrl: RPC_URL },
     { walletName: 'rainbow', preferred: true, ...walletConnectOptions },
     { walletName: 'argent', preferred: true, ...walletConnectOptions },
     { walletName: 'trustWallet', preferred: true, ...walletConnectOptions },
