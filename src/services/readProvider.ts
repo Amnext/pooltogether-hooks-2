@@ -12,7 +12,7 @@ import { getChain } from '@pooltogether/evm-chains-extended'
 import { NETWORK, ETHEREUM_NETWORKS } from '@pooltogether/utilities'
 
 const POLYGON_INFURA_WEBSOCKETS_URL = `wss://polygon-mainnet.infura.io/ws/v3`
-const BINANCE_QUICKNODE_WEBSOCKETS_URL = `wss://red-fragrant-fire.bsc.quiknode.pro`
+const BINANCE_QUICKNODE_WEBSOCKETS_URL = `1`
 const providerCache = {}
 
 export const readProvider = async (chainId, infuraId, quickNodeId) => {
